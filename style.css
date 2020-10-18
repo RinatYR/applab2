@@ -52,7 +52,7 @@
     font-weight: 400;
     line-height: 1.85;
     letter-spacing: -0.3px;
-    margin: 0;
+    margin: 0 0 65px 0;
 }
 .subtitle{
     font-size: 20px;
@@ -65,7 +65,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     list-style: none;
-    margin: 0;
+    margin: 90px 0 0 0 ;
     padding: 0;
 }
 .cards__icon-wrap{
@@ -173,35 +173,6 @@
     object-fit: contain;
 }
 
-/* .sosed{
-    background: rgb(0, 124, 173);
-    height: 100vh;
-    border: 1px solid blue;
-}
-.parent{
-    background: #feaa25;
-    height: 100vh;
-    border: 1px solid orangered;
-}
-.child{
-    height: 250px;
-    width: 250px;
-    background: papayawhip;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 100px;
-    color: rgba(0,0,0,0.4);
-    opacity: 0.8;
-}
-.position{
-    position: sticky;
-    top: 20px;
-    left: 0;
-} */
-
-/*=========== companies ============*/
 .companies{
     padding: 110px 0 80px;
 }
@@ -250,4 +221,97 @@
 .features__card-info{
     width: 270px;
     margin-left: 30px;
+}
+.smart__wrap{
+    display: flex;
+    flex-direction: column;
+    width: 1030px;
+}
+.smart__text{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.smart__title{
+    color: #242f51;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    width: 480px;
+    margin-right: 75px;
+}
+.smart__discription{
+    color: #616368;
+    font-size: 16px;
+    line-height: 26px;
+    width: 415px;
+    border-left: 1px solid #b9b9b8;
+    padding: 40px 0 45px 50px;
+}
+.smart__list{
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 110px 0 0 0;
+    padding: 0;
+}
+.smart__items{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.smart__list-imageBorder{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+/*Окраска кругов для иконок*/
+.icon-bg_red{
+    background: #ffecef;
+}
+.icon-bg_blue{
+    background: #f4f4ff;
+}
+.icon-bg_green{
+    background: #e4ffee;
+}
+.icon-bg_yellow{
+    background: #fff6d3;
+}
+.icon-bg_lightblue{
+    background: #eaf9ff;
+}
+.icon-bg_peach{
+    background: #fdeee4;
+}
+
+/*--------------------------*/
+
+.smart__list-title{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 58px;
+}
+.smart__list-title_red{
+    color: #f55767;
+}
+.smart__list-title_blue{
+    color: #2563ff;
+}
+.smart__list-title_green{
+    color: #40975f;
+}
+.smart__list-text{
+    margin: 0;
+    padding: 0;
+    color: #616368;
+    font-size: 16px;
+    line-height: 26px;
+    width: 265px;
 }
